@@ -1,0 +1,36 @@
+{
+	"name" : "fezfez/architect-generator",
+	"description" : "Architect Generator",
+	"type" : "code-generator",
+	"authors" : [{
+			"name" : "Stéphane Demonchaux",
+			"email" : "demonchaux.stephane@gmail.com"
+		}
+	],
+	"keywords" : [
+		"zf2",
+		"Architect generator",
+		"SOLID principles"
+	],
+	"homepage" : "https://github.com/fezfez/architectGenerator",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"require-dev" : {
+		"fezfez/code-generator" : "dev-master",
+		"phpunit/phpunit" : "4.2.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"ArchitectGenerator" : "src/"
+		}
+	},
+	"support" : {
+		"source" : "https://github.com/fezfez/architectGenerator",
+		"email" : "demonchaux.stephane@gmail.com",
+		"issues" : "https://github.com/fezfez/architectGenerator/issues",
+		"wiki" : "https://github.com/fezfez/architectGenerator/blob/master/README.md"
+	},
+	"minimum-stability" : "dev"
+}

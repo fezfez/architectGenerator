@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./tests/bootstrap.php"
+         backupGlobals="false"
+         processIsolation="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         strict="true">
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".phtml">./src/ArchitectGenerator/</directory>
+            <directory suffix=".php">./src/ArchitectGenerator/</directory>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="General">
+            <directory>./tests/ArchitectGenerator/Tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
