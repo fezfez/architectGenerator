@@ -1,7 +1,7 @@
 {
 	"name" : "fezfez/architect-generator",
 	"description" : "Architect Generator",
-	"type" : "code-generator",
+	"type" : "fezfez-code-generator",
 	"authors" : [{
 			"name" : "Stéphane Demonchaux",
 			"email" : "demonchaux.stephane@gmail.com"
